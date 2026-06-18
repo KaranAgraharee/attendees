@@ -69,7 +69,7 @@ let attendees=[];
 async function loadData(){
 
  const res = await fetch(
-   "https://webinar-backend-njpw.onrender.com"
+   "https://webinar-backend-njpw.onrender.com/attendees"
  );
 
  const data = await res.json();
